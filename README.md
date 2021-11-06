@@ -14,5 +14,11 @@ my records in leetcode
 2. 编译 ts 文件到 js
 
 ```
-    tsc ./question/id/index.ts --lib es2015
+    tsc ./questions/_id_/index.ts --lib es2015
+```
+
+3. 本地测试
+
+```
+    ts-node ./questions/_id_/test.ts
 ```
