@@ -17,6 +17,13 @@ my records in leetcode
     tsc ./questions/_id_/index.ts --lib es2015
 ```
 
+PS：es5 不支持的功能（也就是说需要 tsc 转译 --target es5）
+
+```javascript
+    // 1.const ... of 语法 [ES6/ES2015才支持]
+    for(const a of aList)
+```
+
 3. 本地测试
 
 ```
