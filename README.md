@@ -20,12 +20,23 @@ my records in leetcode
 PS：es5 不支持的功能（也就是说需要 tsc 转译 --target es5）
 
 ```javascript
-    // 1.const ... of 语法 [ES6/ES2015才支持]
-    for(const a of aList)
+// 1.const ... of 语法 [ES6/ES2015才支持]
+for(const a of aList)
 ```
 
 3. 本地测试
 
 ```
     ts-node ./questions/_id_/test.ts
+```
+
+4. tips
+
+有些写法在 polyfill 后会消耗一些内存
+
+比如
+
+```javascript
+// ??用法：当b===undefined 就用c
+const a = b ?? c;
 ```
