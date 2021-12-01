@@ -1,4 +1,4 @@
-export const listCompare = (res: number[], result: number[]): boolean => {
+export const listCompare = <T = number>(res: T[], result: T[]): boolean => {
   if (res.length !== result.length) {
     return false;
   }
